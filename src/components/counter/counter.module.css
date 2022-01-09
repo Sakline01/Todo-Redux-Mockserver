@@ -1,0 +1,25 @@
+.counter{
+    text-align: center;
+}
+.counter button{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    font-size: 30px;
+}
+.valueofx{
+    height: 30px;
+    width: 40px;
+    outline: none;
+    border: olive solid 2px;
+    font-size: large;
+    text-align: center;
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+}
+.show{
+  width: 45%;
+  margin: auto;
+  
+}
+.show>div{
+  display: flex;
+  flex-basis: 50%;
+  height: 140px;  
+  background: #7dc5e2;
+  margin-bottom: 10px; 
+  align-items: center;
+  border-radius: 30px;
+}
+.show>div>div{
+  width: 50%;
+}
+.show>div>div:nth-child(1){
+  display: flex;
+  align-items: center;
+}
+
+.show>div>div>button{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.show>div>div>button:not(:last-child){
+  margin-right: 10px;
+}
+.green{
+  border: green solid 9px;
+}
+.red{
+  border: red solid 9px;
+}
+input{
+  height: 48px;
+  width: 350px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.add{
+  height: 48px;
+  width: 48px;
+  font-size: 25px;
+  border-style: none;
+  border-radius: 7px;
+  background: #fefefe;
+}
+.align{
+    align-items: center;
+}
+.textt{
+  margin: 0px;
+  margin-left: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+p{
+  color: rgb(3, 56, 3);
+  margin-left: 10px;
+}
